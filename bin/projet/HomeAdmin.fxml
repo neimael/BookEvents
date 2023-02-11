@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="Homedmin" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="326.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projet.ControllerHomeAdmin">
+   <children>
+      <ImageView fitHeight="326.0" fitWidth="607.0" layoutX="-4.0">
+         <image>
+            <Image url="@../../../../Downloads/provide-you-with-expert-administrative-support.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="bADDv" layoutX="122.0" layoutY="39.0" mnemonicParsing="false" onAction="#OpenAddVenue" prefHeight="32.0" prefWidth="119.0" style="-fx-background-color: #5ebedb; -fx-background-radius: 90;" text="Add Venue" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <Button fx:id="bBH" layoutX="203.0" layoutY="82.0" mnemonicParsing="false" onAction="#OpenBookigHistory" prefHeight="32.0" prefWidth="125.0" style="-fx-background-radius: 90; -fx-background-color: #5ebedb;" text="Booking History" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <Button fx:id="bBs" layoutX="300.0" layoutY="39.0" mnemonicParsing="false" onAction="#OpenBookingStatus" prefHeight="32.0" prefWidth="119.0" style="-fx-background-radius: 90; -fx-background-color: #5ebedb;" text="Booking Status" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <Button fx:id="bVFe" layoutX="373.0" layoutY="82.0" mnemonicParsing="false" onAction="#OpenViewFeedback" prefHeight="32.0" prefWidth="119.0" style="-fx-background-radius: 90; -fx-background-color: #5ebedb;" text="View Feedback" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <Button fx:id="returnB" layoutX="486.0" layoutY="281.0" mnemonicParsing="false" onAction="#exit" prefHeight="23.0" prefWidth="50.0" style="-fx-background-radius: 90; -fx-background-color: #314045;" text="Exit" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
